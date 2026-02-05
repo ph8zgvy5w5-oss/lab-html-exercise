@@ -50,6 +50,7 @@ nav a {
   display: flex;
   align-items: center;
   gap: 20px;
+  justify-content: flex-start;
 
   padding: 15px 25px;
 }
@@ -70,14 +71,16 @@ nav a {
 
 .magnifying-glass {
 margin-right: 0 8px;
-width: 20px;
+width: 25px;
+background-color: rgba(0,0,0,.05);
 }  
  
 .search-input {
   flex: 1;
   border: none;
   outline: none;
-  padding: 8px;
+  padding: 6px;
+  background-color: rgba(0,0,0,.05);
 }
 .search-button {
  background: #fb3e44;
@@ -113,4 +116,45 @@ width: 20px;
 
   white-space: nowrap;
 }
+</style>
+
+<style>
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+.main-content h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: 8px 8px 0 rgba(251,59,73,.2);
+    border-width: 7px 7px auto;
+    border-style: solid;
+    padding: 0.5rem 1rem;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 10px;
+    margin: 10px 0;
+    padding: 5%;
+    text-align: center;
+}
+.main-content {
+    width: 600px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom-width: 2px solid rgba(251,59,73,.2);
+
+}
+
+
+
+
+
 </style>
